@@ -1,0 +1,15 @@
+## VPS - Velostat Pressure Sensors ##
+
+A cheap DIY project for creating an interactive dancefloor w/ Arduino microcontrollers, 
+looong LED strips, and -- most importantly -- a big 'ol square of astro-turf laid atop 
+a network of homebrewed Velostat pressure sensors.
+
+Each Uno manages:
+* processing separate analog inputs from a column of 4 piezoresistive Velostat sensors
+* coordinating 2 analog RGB LED strips to dynamically react to corresponding VPS readings
+* time based events
+
+Goal is for a 16 matrix (4x4) of these hacked-together Velostat pads, requiring the code
+to run on 4 individual boards.
+
+
